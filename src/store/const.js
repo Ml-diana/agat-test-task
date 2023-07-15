@@ -1,0 +1,8 @@
+const USER = {
+    LOAD_SUCCESS: "FETCH_SHAPES_SUCCESS",
+    LOAD_ERROR: 'FETCH_SHAPES_ERROR',
+    DELETE_POINT: 'DELETE_POINT',
+    ADD_POINT: 'ADD_POINT',
+  };
+  
+  export default USER;

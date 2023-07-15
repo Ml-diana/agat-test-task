@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:focus {
+  outline: none;
+}
+
+#map-id {
+  height: 100vh;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.data-points-wrapper {
+  background-color: white;
+  border-radius: 4px;
+  position: fixed;
+  width: 15%;
+  min-height: 31%;
+  top: 1%; 
+  left: 1%; 
+  right: 0;
+  z-index: 999;
+}
+.data-points-box {
+  margin: 25px;
+}
+
+.data-points {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.data-point {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ button{
+  background-color: #23ad96;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-style: none;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+}
+
+.data-input-form-wrapper {
+  background-color: white;
+  border-radius: 4px;
+  position: fixed;
+  width: 11%;
+  height: 18.5%;
+  top: 50%; 
+  left: 1%; 
+  right: 0;
+  z-index: 999;
+}
+
+.data-input-form {
+  margin: 25px;
+}
+
+.data-input-form p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.data-input-form input{
+  padding:10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.data-input-form input + input{
+  margin-top: 15px;
+}
+
+.data-input-form input:focus, .data-input-form input:active, .data-input-form input:hover{
+  border: 1px solid #23ad96;
+}
+
+.data-input-form button {
+  margin-top: 15px;
+}
+
